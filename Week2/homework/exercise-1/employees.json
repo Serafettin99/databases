@@ -3,60 +3,70 @@
     "full_name": "Wouter Kleijn",
     "salary": "2800.50",
     "address": "Sarphatistraat 380, Amsterdam",
-    "manager": null
+    "manager": null,
+    "department_no": 110
   },
   {
     "full_name": "Federico Fusco",
     "salary": "2760.05",
     "address": "Sarphatistraat 378, Amsterdam",
-    "manager": 1
+    "manager": 1,
+    "department_no": 118
   },
   {
     "full_name": "Tjebbe Schalij",
     "salary": "2660.00",
     "address": "Sarphatistraat 376, Amsterdam",
-    "manager": 1
+    "manager": 1,
+    "department_no": 116
   },
   {
     "full_name": "George Hagi",
     "salary": "5005.85",
     "address": "Sarphatistraat 374, Amsterdam",
-    "manager": 3
+    "manager": 3,
+    "department_no": 116
   },
   {
     "full_name": "Bulent Akin",
     "salary": "2990.35",
     "address": "Sarphatistraat 372, Amsterdam",
-    "manager": 3
+    "manager": 3,
+    "department_no": 114
   },
   {
     "full_name": "Hakan Sukur",
     "salary": "2480.35",
     "address": "Sarphatistraat 370, Amsterdam",
-    "manager": null
+    "manager": null,
+    "department_no": 114
   },
   {
     "full_name": "Arif Erdem",
     "salary": "2660.05",
     "address": "Sarphatistraat 368, Amsterdam",
-    "manager": 2
+    "manager": 2,
+    "department_no": 112
   },
   {
     "full_name": "Emre Asik",
     "salary": "2700.45",
     "address": "Sarphatistraat 366, Amsterdam",
-    "manager": 2
+    "manager": 2,
+    "department_no": 110
   },
   {
     "full_name": "Hakan Unsal",
     "salary": "2650.90",
     "address": "Sarphatistraat 364, Amsterdam",
-    "manager": 1
+    "manager": 1,
+    "department_no": 112
   },
   {
     "full_name": "Rigobert Song",
     "salary": "2600.75",
     "address": "Sarphatistraat 362, Amsterdam",
-    "manager": 1
+    "manager": 1,
+    "department_no": 110
   }
 ]

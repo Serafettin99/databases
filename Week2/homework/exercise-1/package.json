@@ -1,7 +1,6 @@
 {
   "name": "db-week2-hw",
   "version": "1.0.0",
-  "description": "",
   "main": ".eslintrc.js",
   "dependencies": {
     "mysql": "^2.17.1",
@@ -13,5 +12,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }

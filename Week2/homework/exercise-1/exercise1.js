@@ -19,19 +19,24 @@ const main = async () => {
     await connect();
     //create db
     await executeQuery(`CREATE DATABASE IF NOT EXISTS week2_hw`);
-    //switch to week2_hw
+    // //switch to week2_hw
     await executeQuery(`USE week2_hw`);
-    // Create a table, called employees. Give it the following fields    await executeQuery(
+    // // Create a table, called employees. Give it the following fields    await executeQuery(
     await executeQuery(
-      `CREATE TABLE IF NOT EXISTS employees(employee_no INT PRIMARY KEY AUTO_INCREMENT, full_name VARCHAR(50) NOT NULL, salary FLOAT, address VARCHAR(200))`,
+      `CREATE TABLE IF NOT EXISTS employees (
+        employee_no INT PRIMARY KEY AUTO_INCREMENT,
+        full_name VARCHAR(100),
+        salary INT,
+        address VARCHAR(200),
+        department_no INT)`,
     );
 
-    //Write a query that adds a foreign key to Employee table that points to itself, call it as manager
+    // //Write a query that adds a foreign key to Employee table that points to itself, call it as manager
     await executeQuery(
       `ALTER TABLE employees ADD COLUMN manager INT(11), ADD CONSTRAINT F_K FOREIGN KEY (manager) REFERENCES employees(employee_no)`,
     );
 
-    //Insert 20 rows in this table
+    Insert 20 rows in this table
     employees.forEach(
       async employee =>
         await executeQuery('INSERT INTO employees SET ?', employee),
