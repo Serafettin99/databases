@@ -1,17 +1,6 @@
 'use strict';
 
-const mysql = require('mysql');
-const { promisify } = require('util');
-
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'hyfuser',
-  password: 'hyfpassword',
-  database: 'week2_hw',
-});
-
-const connect = promisify(connection.connect.bind(connection));
-const executeQuery = promisify(connection.query.bind(connection));
+const { connection, connect, executeQuery } = require('../module/module.js');
 
 const main = async () => {
   try {
@@ -62,7 +51,7 @@ const main = async () => {
        ON employees.department_no = departments.dept_no 
        GROUP BY department_no`,
     );
-    
+
     // For each salary value, return the number of employees paid.
     const numberOfForEachEmpsPaid = await executeQuery(
       `SELECT salary, COUNT(employee_no) FROM employees GROUP BY salary`,

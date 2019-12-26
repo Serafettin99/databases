@@ -1,8 +1,8 @@
 {
-  "name": "exercise-4",
+  "name": "mymodule",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "module.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

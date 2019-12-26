@@ -1,17 +1,6 @@
 'use strict';
 
-const mysql = require('mysql');
-const { promisify } = require('util');
-
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'hyfuser',
-  password: 'hyfpassword',
-  database: 'week2_hw',
-});
-
-const connect = promisify(connection.connect.bind(connection));
-const executeQuery = promisify(connection.query.bind(connection));
+const { connection, connect, executeQuery } = require('../module/module.js');
 
 const main = async () => {
   try {
@@ -38,7 +27,7 @@ const main = async () => {
   } catch (err) {
     console.table(err);
   } finally {
-    connect.end;
+    connection.end();
   }
 };
 main();
