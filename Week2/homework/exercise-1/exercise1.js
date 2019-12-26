@@ -36,7 +36,7 @@ const main = async () => {
       `ALTER TABLE employees ADD COLUMN manager INT(11), ADD CONSTRAINT F_K FOREIGN KEY (manager) REFERENCES employees(employee_no)`,
     );
 
-    Insert 20 rows in this table
+    // Insert 20 rows in this table
     employees.forEach(
       async employee =>
         await executeQuery('INSERT INTO employees SET ?', employee),

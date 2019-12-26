@@ -1,0 +1,68 @@
+[
+  {
+    "dept_no": "110",
+    "title": "Lorem Ipsum1",
+    "description": "Lorem Ipsum Dolor1",
+    "address": "Lorem Ipsum Dolor Sit Amet1"
+  },
+  {
+    "dept_no": "112",
+    "title": "Lorem Ipsum2",
+    "description": "Lorem Ipsum Dolor2",
+    "address": "Lorem Ipsum Dolor Sit Amet2"
+  },
+  {
+    "dept_no": "114",
+    "title": "Lorem Ipsum3",
+    "description": "Lorem Ipsum Dolor3",
+    "address": "Lorem Ipsum Dolor Sit Amet3"
+  },
+  {
+    "dept_no": "116",
+    "title": "Lorem Ipsum4",
+    "description": "Lorem Ipsum Dolor4",
+    "address": "Lorem Ipsum Dolor Sit Amet4"
+  },
+  {
+    "dept_no": "118",
+    "title": "Lorem Ipsum5",
+    "description": "Lorem Ipsum Dolor5",
+    "address": "Lorem Ipsum Dolor Sit Amet5"
+  },
+  {
+    "dept_no": "120",
+    "title": "Lorem Ipsum6",
+    "description": "Lorem Ipsum Dolor6",
+    "address": "Lorem Ipsum Dolor Sit Amet6"
+  },
+  {
+    "dept_no": "122",
+    "title": "Lorem Ipsum7",
+    "description": "Lorem Ipsum Dolor7",
+    "address": "Lorem Ipsum Dolor Sit Amet7"
+  },
+  {
+    "dept_no": "124",
+    "title": "Lorem Ipsum8",
+    "description": "Lorem Ipsum Dolor8",
+    "address": "Lorem Ipsum Dolor Sit Amet8"
+  },
+  {
+    "dept_no": "126",
+    "title": "Lorem Ipsum8",
+    "description": "Lorem Ipsum Dolor8",
+    "address": "Lorem Ipsum Dolor Sit Amet8"
+  },
+  {
+    "dept_no": "128",
+    "title": "Lorem Ipsum9",
+    "description": "Lorem Ipsum Dolor9",
+    "address": "Lorem Ipsum Dolor Sit Amet9"
+  },
+  {
+    "dept_no": "130",
+    "title": "Lorem Ipsum10",
+    "description": "Lorem Ipsum Dolor10",
+    "address": "Lorem Ipsum Dolor Sit Amet10"
+  }
+]
