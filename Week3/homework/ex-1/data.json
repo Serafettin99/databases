@@ -1,0 +1,16 @@
+[
+  [
+    { "skill": "Node.JS" },
+    { "skill": "SQL" },
+    { "skill": "React" },
+    { "skill": "SCRUM" },
+    { "skill": "product management" }
+  ],
+  [
+    { "employee_id": 1, "skill_id": 8 },
+    { "employee_id": 1, "skill_id": 9 },
+    { "employee_id": 2, "skill_id": 5 },
+    { "employee_id": 2, "skill_id": 6 },
+    { "employee_id": 2, "skill_id": 7 }
+  ]
+]
