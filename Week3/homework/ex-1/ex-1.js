@@ -28,6 +28,9 @@ const runQuery = promisify(connection.query.bind(connection));
 
 const main = async () => {
   try {
+    //connect to db
+    await connect();
+
     // Write a query for each table that needs to be created.
     // Make sure to also specify the correct data types for each column
     const createSkills_Table = `CREATE TABLE IF NOT EXISTS skills (
